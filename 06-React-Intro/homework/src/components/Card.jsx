@@ -12,7 +12,7 @@ export default function Card(props) {
       <p>Max</p>
       <p>{props.max}</p>
     </div>
-  <img src="https://cdn.icon-icons.com/icons2/472/PNG/48/dinosaur-48_44802.png" alt={"img no cargada"}/>
+  <img src={`http://openweathermap.org/img/wn/${props.img}@2x.png`} alt={"img no cargada"}/>
   </div>
   )
 };

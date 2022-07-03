@@ -6,7 +6,7 @@ import SearchBar from './components/SearchBar.jsx';
 import data, { Cairns } from './data.js';
 
 function App() {
-  console.log(Cairns);
+  //console.log(Cairns);
   return (
     <div className="App">
       <div>
