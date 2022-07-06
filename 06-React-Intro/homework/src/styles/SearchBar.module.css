@@ -1,0 +1,17 @@
+.container{
+    padding-right: 5px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.btn{
+    color: gray;
+    background-color: black;
+}
+
+.btn:hover{
+    background-color: grey;
+    color: aquamarine;
+}

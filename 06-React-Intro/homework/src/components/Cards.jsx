@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from './Card';
+import styles from '../styles/Cards.module.css';
 
 export default function Cards(props) {
   // acá va tu código
@@ -10,7 +11,7 @@ export default function Cards(props) {
     )
   }
   return (
-  <div>
+  <div className={styles.container}>
     {
       props.cities && props.cities.map(city => <Card
         key={city.id}
